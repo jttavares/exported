@@ -31,6 +31,7 @@
     width: 267px;
     border-radius: 100px;
     background-color: #fd5c63 !important;
+    z-index: 20;
 }
 @media screen and (max-width:768px){
     .hero-body .container .title{
