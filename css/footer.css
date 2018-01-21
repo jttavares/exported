@@ -1,0 +1,71 @@
+.footer{
+    background-color: #fff;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: #75808c;
+    opacity: 0.9;
+    justify-content: center;
+}
+.footer .conteudo.columns{
+    justify-content: space-between;
+}
+.footer .select{
+    border: 1px solid #dbdbdb;
+   border-radius: 2px;
+   padding-left: 30px;
+  padding-top: 8px;
+    color: #75808c;
+    opacity: 0.9;
+}
+.footer .moeda.select{
+    text-transform: uppercase;
+}
+.footer .column.is-2{
+    text-align: left;
+}
+.footer .column.is-2 h3{
+    font-size: 1em;
+    color: #fb5c68;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.footer .column.is-2 p{
+    font-style: 1em;
+    color: #88939e;
+    opacity: 0.9;
+    margin-bottom: 0px;
+}
+.footer .navbar{
+    justify-content: space-between;
+    color: #88939e;
+    border-top: 2px solid #e8e8e8;
+}
+.footer .navbar .navbar-start .navbar-brand img{
+    height: 36px;
+}
+.footer .navbar .navbar-end .navbar-item span{
+    font-size: 1em;
+   color: #88939e; 
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+
+
+
+@media screen and (max-width:768px)
+{
+   .footer .column.is-2{
+    text-align: center;
+} 
+    .footer .navbar{
+    text-align: center;
+        align-items: center;
+}
+    .footer .navbar .navbar-start{
+        text-align: center;
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+}

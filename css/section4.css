@@ -1,0 +1,37 @@
+
+.section.quatro .content{
+  text-align: center;
+   margin-top: 130px; 
+   
+}
+.section.quatro .content h1{
+    font-size: 1.64em;
+    color: #4c4c51;
+    font-weight: 400;
+}
+.section.quatro .content p{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #88939e;
+    opacity: 0.9;
+}
+
+.section.quatro .field .control{
+  max-width: 474px;
+}
+  
+.section.quatro .content .field select{
+   max-width: 474px;
+    color: #88939e;
+    opacity: 0.9;
+    padding-left: 30px;
+   border-radius: 25px 25px 0px 0px;   
+}
+.section.quatro .content .field .button{
+    background-color: #fd6e74;
+   max-width: 474px;
+    opacity: 0.9;
+    height: 60px;
+    border-radius: 0px 0px 25px 25px;
+    font-size: 1em;
+}

@@ -1,0 +1,32 @@
+.section.Vinhetas{
+  
+margin: 0;padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+   margin-top: -120px;
+   
+    /*margin-bottom: -220px;*/
+}
+
+.section.Vinhetas img{
+       border-radius: 4px;
+    margin: 10px;
+}
+.section.Vinhetas .tile figure{
+    margin: 10px;
+}
+
+.section.Vinhetas .tile .a1{
+    margin-top: 20px;
+}
+
+.section.Vinhetas .tile.a2{
+ margin-top: -20px;
+}
+.section.Vinhetas .tile .a3{
+   margin-top: 30px; 
+}
+.section.Vinhetas .tile .a4{
+    margin-top: 40px;
+}
+

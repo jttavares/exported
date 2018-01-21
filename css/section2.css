@@ -1,0 +1,21 @@
+/*font-family: 'Merriweather', serif;*/
+.section.dois{
+    font-family: 'Merriweather', serif;
+    opacity: 0.9;
+}
+/*.section.dois.level-item{
+    display: block;
+}*/
+.section.dois .title{
+    font-size: 48px;
+    color: #f94d59;
+    font-weight: 800;
+    opacity: 0.9;
+}
+.section.dois .heading{
+    font-size: 22px !;
+    text-transform: lowercase;
+    color: #88939e;
+    font-weight: 400;
+    opacity: 0.9;
+}

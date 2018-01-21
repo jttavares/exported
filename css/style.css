@@ -1,0 +1,74 @@
+@import url(hero.css);
+@import url(vinhetas.css);
+@import url(section1.css);
+@import url(section2.css);
+@import url(section3.css);
+@import url(section4.css);
+@import url(footer.css);
+@import url(modal.css);
+    
+
+body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+   
+}
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+.navbar.container{
+    background-color: transparent;
+}
+.header.navbar{
+    width: 100%;
+    margin-top: 33px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+  background-color: transparent;
+    border: none;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+  
+.navbar-menu{
+    align-items: center;
+    opacity: 0.9;
+   background-color: transparent;
+    text-transform: capitalize;
+}
+.navbar-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-end span{
+    margin-right: 68px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-end img{
+    max-height: 48px;
+    max-width: 48px;
+        vertical-align: middle;
+}
+.navbar-burger{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+       margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+}

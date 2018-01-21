@@ -1,0 +1,34 @@
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.modal-content h2{
+    font-size: 2em;
+}
+.modal-content p{
+    font-size: 1.5em;
+}
+.modalHeader{
+    display: flex;
+    align-items: center;
+}
+.modalHeader img{
+    height: 133px;
+    width: 133px;
+}
+.modalHeader h1{
+    font-size: 2.54em;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.modalBody{
+    margin-top: 100px;
+}
+.modalFooter{
+    position: fixed;
+    bottom: 0;
+    width: 640px;
+}
