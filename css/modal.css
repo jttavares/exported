@@ -28,7 +28,5 @@
     margin-top: 100px;
 }
 .modalFooter{
-    position: fixed;
-    bottom: 0;
-    width: 640px;
+    margin-top: 30px;
 }
