@@ -43,15 +43,17 @@ width: 100%;
         display: flex;        
         flex-direction: column;
         display: -ms-flexbox;
-       -ms-flex-align: justify;
+        -ms-flexbox-direction: column;
+        -ms-flex-pack: justify;
     }
     .section.Vinhetas .tile.is-vertical{
         display: flex;
         flex-direction: row;
         float: left;
-        display: -ms-flex;
-        -ms-flexbox-direction: row;
-        
+        display: -ms-flexbox;
+        -ms-flexbox-direction: column;  
+        -ms-flex-pack: justify;
+        -ms-flex: 0 0 auto;
     }
     
     .section.Vinhetas .tile.nivel1{
