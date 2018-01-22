@@ -7,8 +7,23 @@
     margin-bottom: 0;
     justify-content: flex-start;
 }
-.section.tres .card i{
-    font-size: 98px;
+.section.tres .card span{
+    visibility: hidden;
+}
+.section.tres .card h1{
+    background-image: url(../Imagens/plus.png);
+    width: 98px;
+    height: 98px;
+    background-size: cover;
+    text-align: right;
+    margin-top: -49px;
+    z-index: 10;
+    position: absolute;
+    right: 45px;
+ }
+
+/*.section.tres .card i{
+   font-size: 98px;    
     color: #fff;
     text-align: right;
     margin-top: -49px;
@@ -16,8 +31,11 @@
     position: absolute;
     right: 50px;
     font-weight: 700;
-}
+   
+}*/
+
 .section.tres .card .card-footer{
+    margin-top: -1px;
     width: 100%;
     background-color: #fd6e74;
  padding-left: 125px;

@@ -1,3 +1,4 @@
+//implementando fechamento do modal
 var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtn");
 btn.onclick = function() {
@@ -9,7 +10,7 @@ window.onclick = function(event) {
     }
 } 
 
-
+//Menu Hamburguer para mobile
 document.addEventListener('DOMContentLoaded', function () {
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
   if ($navbarBurgers.length > 0) {
